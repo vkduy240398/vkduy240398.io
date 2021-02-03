@@ -684,6 +684,7 @@ section.seven .container {
 section.seven .container .title {
   position: relative;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 section.seven .container .title h3 {
