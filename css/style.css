@@ -1079,6 +1079,9 @@ section.footer .container .content .social .media ul li {
   section.seven .container {
     padding: 0 20px;
   }
+  section.seven .container .title {
+    padding: 0;
+  }
   section.seven .container .title h3 {
     font-size: 24px;
     line-height: 36px;
