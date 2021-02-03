@@ -1029,6 +1029,9 @@ section.footer .container .content .social .media ul li {
   section.five .container .cards .card .box .colors {
     width: 100%;
   }
+  section.five .container .cards .card .box .colors span {
+    margin: 5px 2px;
+  }
   section.six {
     padding-top: 0;
     -webkit-box-orient: vertical;
