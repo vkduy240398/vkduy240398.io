@@ -833,7 +833,7 @@ section.footer .container .content .social .media ul li {
   list-style: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   section.header .container {
     padding: 0 20px;
   }
@@ -982,7 +982,7 @@ section.footer .container .content .social .media ul li {
   }
   section.block {
     position: absolute;
-    top: 33%;
+    top: 38%;
   }
   section.four .container {
     padding: 0 20px;
@@ -997,7 +997,7 @@ section.footer .container .content .social .media ul li {
     position: relative;
   }
   section.four .container .content .image-circle .img img {
-    width: 50%;
+    width: 35%;
   }
   section.four .container .content .image-circle .img:before {
     width: calc(493px/2);
@@ -1117,6 +1117,16 @@ section.footer .container .content .social .media ul li {
   }
   section.footer .container .content .social .copy p {
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  section.block {
+    position: absolute;
+    top: 33%;
+  }
+  section.four .container .content .image-circle .img img {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */

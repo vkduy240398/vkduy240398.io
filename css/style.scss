@@ -613,7 +613,7 @@ section.footer{
         }
     }
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
     section.header .container{
         padding: 0 20px;
         .head{
@@ -735,7 +735,7 @@ section.footer{
     // end section three
     section.block{
         position: absolute;
-        top: 33%;
+        top: 38%;
     }
     // start section four
     section.four {
@@ -747,7 +747,7 @@ section.footer{
                     position: relative;
                     .img{
                         img{
-                            width: 50%;
+                            width: 35%;
                         }
                         
                     }
@@ -884,5 +884,14 @@ section.footer{
             }
           
         }
+    }
+}
+@media only screen and (max-width: 400px){
+    section.block {
+        position: absolute;
+        top: 33%;
+    }
+    section.four .container .content .image-circle .img img{
+        width: 50%;
     }
 }
