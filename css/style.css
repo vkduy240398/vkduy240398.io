@@ -213,7 +213,7 @@ section.three .container .content .image-box .image .image-before img {
 section.three .container .content .image-box .image .image-before {
   background-image: url("../uploads/Vector.png");
   background-size: cover;
-  background-position: 100% 30%;
+  background-position: 75% 30%;
   background-repeat: no-repeat;
 }
 
