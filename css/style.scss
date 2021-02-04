@@ -748,6 +748,7 @@ section.footer{
                     .img{
                         img{
                             width: 35%;
+                            object-fit: contain;
                         }
                         
                     }
@@ -893,5 +894,6 @@ section.footer{
     }
     section.four .container .content .image-circle .img img{
         width: 50%;
+        object-fit: contain;
     }
 }

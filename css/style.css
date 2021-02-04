@@ -998,6 +998,8 @@ section.footer .container .content .social .media ul li {
   }
   section.four .container .content .image-circle .img img {
     width: 35%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   section.four .container .content .image-circle .img:before {
     width: calc(493px/2);
@@ -1127,6 +1129,8 @@ section.footer .container .content .social .media ul li {
   }
   section.four .container .content .image-circle .img img {
     width: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 /*# sourceMappingURL=style.css.map */
