@@ -298,13 +298,16 @@ section.four{
             }
             .image-circle{
                 flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 .img{
                    display: flex;
                    justify-content: center;
                    position: relative;
                    img{
                        z-index: 1;
-                       width: 50%;
+                       width: 100%;
                    }
                 }
                 .img:before{
@@ -745,6 +748,7 @@ section.footer{
                 flex-direction: column-reverse;
                 .image-circle{
                     position: relative;
+                    display: unset;
                     .img{
                         img{
                             width: 35%;

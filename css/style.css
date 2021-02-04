@@ -371,6 +371,15 @@ section.four .container .content .image-circle {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section.four .container .content .image-circle .img {
@@ -385,7 +394,7 @@ section.four .container .content .image-circle .img {
 
 section.four .container .content .image-circle .img img {
   z-index: 1;
-  width: 50%;
+  width: 100%;
 }
 
 section.four .container .content .image-circle .img:before {
@@ -995,6 +1004,7 @@ section.footer .container .content .social .media ul li {
   }
   section.four .container .content .image-circle {
     position: relative;
+    display: unset;
   }
   section.four .container .content .image-circle .img img {
     width: 35%;
